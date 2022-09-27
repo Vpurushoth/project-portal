@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://grt.edu.in/wp-content/uploads/2018/06/Main-Build.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-align: center;
+font-size: 50px;
+margin-top: 50px;
+text-shadow:10px 10px 10px black;
+}
+form{
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: thistle;
+width:350px;
+height:45%;
+border-radius: 15px;
+box-shadow:10px 10px 10px black; 
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top:8%;
+margin-left:40%;
+padding: 10px;
+}
+button{
+border-radius: 5px;
+border-color: slateblue;
+}
+input{
+width: 100%;
+padding: 5px;
+}

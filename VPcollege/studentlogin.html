@@ -1,0 +1,77 @@
+<html>
+<head><title>
+    Student Login
+</title>
+<style>
+    body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://grt.edu.in/wp-content/uploads/2018/06/Main-Build.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-align: center;
+font-size: 50px;
+margin-top: 50px;
+text-shadow:10px 10px 10px black;
+}
+form{
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: thistle;
+width:350px;
+height:45%;
+border-radius: 15px;
+box-shadow:10px 10px 10px black; 
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top:8%;
+margin-left:40%;
+padding: 10px;
+}
+button{
+border-radius: 5px;
+border-color: slateblue;
+}
+input{
+width: 100%;
+padding: 5px;
+}
+button:hover{
+    font-size: 15px;
+}
+a{
+    float:left;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+a button{
+    width: 80px;
+}
+</style>
+    </head>
+    <body>
+        <h1> VP INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1>
+        <form name="form" action="studentlog.php" method="POST">
+            
+            <h2>STUDENT LOGIN</h2>
+
+                <h3><label for="fname" >NAME  </label>
+                <div id="abc"><input type="text"  name="fname" id="fname" value="" placeholder="Enter Your name" required></div><br><br>
+            
+                <label for="pswd">PASSWORD </label>
+                <div id="abc"><input type="password" name="pswd" id="pswd" value="" placeholder="Password" required></<br><br><br>
+            </h3>
+            
+            
+
+            <button class="button button1" method="POST"><b> LOG IN</b></button>
+        </form>
+
+        <a href="colgindex.html"><button type="button"><b><< Back </b> </button></a>
+    </body>
+    </html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            ADMIN
+        </title>
+        <link rel="stylesheet" href="admin.css">
+    </head>
+    <body>
+        
+
+        <h1>VP INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1>
+                        
+            
+
+                <script>
+                    function validationform(){
+                    var name=document.myform.name.value;
+                    var password=document.myform.password.value;
+                                                    
+                        if(name=="Purushothaman" && password=="123456")
+                            {
+                                window.location.href="Pro-signup.html";
+                            }  
+                        else
+                            {
+                                alert("Sorry..! You are not a Valid user");
+                            }
+                    }
+                </script>
+                                    
+                    <form name="myform"  method="POST" >
+                        <h2>ADMIN LOGIN</h2>
+                            ID Name  : <input  type="text" name="name" required><br><br>
+                            Password : <input type="password" name="password" required ><br><br><br>
+                                
+                            <button type="button" onclick="validationform()" id="submit"><b>LOG IN</b></button>
+                    </form>
+                                 
+                    <a href="colgindex.html"><button type="button"><b><< Back </b> </button></a>
+    </body>
+    </html>

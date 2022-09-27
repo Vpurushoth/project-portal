@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+    .home{
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://wallpaperaccess.com/full/1209535.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height: 150%;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+        text-shadow:10px 10px 10px black;
+    }
+    .abcd{
+        display: inline;
+        float: left;
+        background-color: red;
+        color: white;
+        width:500px;
+        height:110px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    h4{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    li{
+    text-decoration: none;
+    float: top;
+    margin-right: 0%;
+    }
+    ul li{
+    display: inline;
+    position: relative;
+    font-size:20px;
+    justify-content: space-around;
+    padding: 10px;
+    }
+    ul{
+    text-align: right;
+    }
+    form{
+    margin: 10px;
+    }
+    .enquiry{
+    display: flex;
+    background-color: white;
+    width:400px;
+    height: 640px;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin-right: 60px;
+    }
+    .enquiry h3{
+    text-align: center;
+    }
+    label{
+    padding: 3px;
+    }
+    input{
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    width: 380px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    }
+    select{
+    width:100%;
+    height: 25px;
+    }
+    button{
+    width:100%;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    font: 1em sans-serif;
+    cursor: pointer;
+    }
+    #aboutus{
+        padding: 30px;
+        font-size: 20px;
+        margin: 10px 350px 5px 350px;
+    }
+    h2{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
+    #cntus{
+        display: inline;
+        margin: 30px;
+    }
+    h6{
+        font-size: 20px;
+    }
+
+
+
+
+
